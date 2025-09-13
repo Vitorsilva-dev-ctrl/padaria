@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+   
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="/index.html">Inicio</a>
+        </nav>
+        <h1>Formulário de Cadastro</h1>
+        
+        <form class="formulario">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label>
+                    Nome completo:
+                    <input type="name" required>
+                </label>
+                <label>
+                    Email:
+                    <input type="email" required>
+                </label>
+
+                <label>
+                    Telefone:
+                    <input type="tel" required pattern="\(\d{2}\)\s?\d{4,5}-\d{4}" placeholder="(11) 9444-4444">
+                </label>
+
+                <label>
+                    Rua:
+                    <input type="street" required>
+                </label>
+                <label>
+                    Número:
+                    <input type="number">
+                </label>
+                <label>
+                    Bairro :
+                    <input type="neighborhood" required>
+                </label>
+                <label>
+                    CEP:
+                    <input type="postal code" required pattern="[0-9]{5}-[0-9]{3}" placeholder="07000-000">
+                </label>
+                <label>
+                    Tipos de produtos:
+                    <input type="checkbox">
+                    Pães artesanais
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Doces e bolos
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Salgados
+                </label>
+
+
+                <label>
+                    <input type="checkbox">
+                    Produtos diet/light
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Produtos integrais
+                </label>
+
+                <label>
+                    Aceita receber promoções por email
+                    <input type="checkbox">
+                    Sim
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Não
+                </label>
+
+                <label>
+                    Aceita os termos de uso
+                    <input type="checkbox">
+                    Sim
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Não
+                </label>
+
+                <button type="submit">Enviar</button>
+
+            </fieldset>
+        </form>
+      
+    </main>
+</body>
+
+</html>

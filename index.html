@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padaria do Felipe</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- Linkando o arquivo css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <a href="/pedidos.html"></a>
+
+</head>
+
+<body>
+
+  <!-- Cabeçalho do site com nome da padaria e slogan -->
+  <header id="inicio" class="banner">
+
+    <nav class="menu">
+      <img src="./logo/Logo padaria.jpg" alt="foto-padaria" class="logo">
+      <a href="#inicio">Inicio</a>
+      <a href="#produto">Nossos Produtos</a>
+      <a href="#sobre">Sobre nós</a>
+      <a href="#contato">Localização-Horários</a>
+    </nav>
+
+    <div class="texto-banner">
+      <img src="./logo/200924102-cartoon-bakery-interior-with-oven-and-bread-vector-illustration-in-old-style.jpg"
+        alt="ambiente">
+      <h1>Pães Quentinhos</h1>
+      <p>Pão Quentinhos e fresquinhos todos os dias na sua mesa.</p>
+      <a href="pedidos.html" class="botao">Fazer pedido</a>
+    </div>
+  </header>
+
+  <!-- Conteudo principal -->
+  <main>
+    <section id="sobre" class="historia">
+      <video class="video" controls>
+        <source src="./videos/padaria1.video.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+      </video>
+      <nav>
+      </nav>
+      <div class="ht">
+        <h2>Quem somos?</h2>
+        <p> Desde criança, nossa Familia sempre foi apaixonada pelo cheiro de pão saindo do forno. fomos
+          uma família simples do interior e aprendemos a fazer nossos primeiros pães com a nossa mãe.
+
+          Depois de 18 anos, nos mudamos para a cidade e começamos a trabalhar em uma padaria como ajudantes. No começo,
+          só
+          varriamos o chão e lavavamos formas, mas aproveitava cada oportunidade para aprender. Com o tempo, fomos
+          entendendo
+          que fazer pão é muito mais do que misturar farinha e água: é colocar amor e paciência em cada detalhe.
+
+          Depois de muito esforço, conseguimos abrir minha própria padaria. Não foi fácil — enfrentemos dificuldades,
+          dívidas
+          e noites sem dormir. Mas nunca pensamos em desistir, porque para nós o pão é mais do que um alimento: é um
+          símbolo de união e esperança.</p>
+      </div>
+
+    </section>
+    <h2>Temos uma grande variedade de alimentos para alegrar o seu dia</h2>
+
+    <section id="produto" class="cardapio">
+      <figure>
+        <img src=" ./images/produtos/21-de-marco-e-o-dia-do-pao-frances.-Vamos-de-receitinha.jpg" alt="Pão Francês">
+        <figcaption>Pão Francês</figcaption>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/image_1024.jpg" alt="Pão Doce">
+        <figcaption>Pão Doce</figcaption>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/Receita-pao-doce-vegano.jpg" alt="Pão Vegano">
+        <figcaption>Pão Vegano</figcaption>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/Pao-doce-geleia-cream-cheese-Baixa-1.jpg.webp" alt="Pão com Geleia e Cream Cheese">
+        <figcaption>Pão com Geleia e Cream Cheese</figcaption>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/image_1024.jpg" alt="Pão Língua de Sogra">
+        <figcaption>Pão Língua de Sogra</figcaption>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/Pizza.jpg" alt="Pizza">
+        <figcaption>Pizza</figcaption>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/bolo-de-chocolate-simples-768x619.jpg" alt="Bolo de Chocolate">
+        <figcaption>Bolo de Chocolate</figcaption>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/historia-do-croissant-1920w.webp" alt="Croissant">
+        <figcaption>Croissant</figcaption>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/cocacola.png" alt="Cocacola">
+        <figcaption>Coca-cola</figcaption>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/pepsi.webp" alt="Pepsi">
+        <figcaption>Pepsi</figcaption>
+
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/guarana-antarctica.jpg" alt="Refrigerenate">
+        <figure>Guaraná Antarctica</figure>
+      </figure>
+
+      <figure>
+        <img src=" ./images/produtos/Suco.jpeg" alt="Suco">
+        <figcaption>Sucos Naturais</figcaption>
+      </figure>
+    </section>
+
+    <section id="cadastro" class="form-cadastro">
+      <h2>Faça seu cadastro</h2>
+      <form action="/cadastro.html" method="post">
+
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco">
+
+        <button type="submit" class="botao3">Cadastrar</button>
+      </form>
+    </section>
+
+  </main>
+
+  </footer>
+  <!--Tabela de horários -->
+  <section id="contato">
+    <footer>
+      <div class="footer-section">
+        <h4>Horário de Funcionamento</h4>
+        <p>Seg a Sex: 6h às 17h</p>
+        <p>Sábado: 6h às 15h</p>
+        <p>Domingo: Fechado</p>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.320168426787!2d-46.74473952373204!3d-23.2678133790026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cee731747ab979%3A0x1d28d91020799503!2sPanificadora%20Princesa%20Isabel!5e0!3m2!1spt-BR!2sbr!4v1757646450711!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="footer-section">
+        <nav><a href="/Contato.html" class="botao1">Entre em contato</a></nav>
+        <p>WhatsApp: (11) 3000-2000</p>
+        <p>Email: contato@padaria.com</p>
+        <p>Rua Glicério, 750 - SP</p>
+      </div>
+
+      <div class="footer-encerramento">
+
+        <nav>
+          <a href="/feedback.html" class="botao2">De a sua opinião sobre nossa padaria</a>
+        </nav>
+        <p>
+          Nós trabalhamos e aprendemos muito ao longo da nossa jornada. Buscamos pessoas que saibam saborear um bom
+          café, que amam o cheiro de pão quentinho e que entendam que um sorriso acolhedor é capaz de aquecer um
+          coração.
+        </p>
+        <p>Padaria Felipe © 2025 - Todos os direitos reservados</p>
+        <img src="/Logo/6c40b653-3.png" alt="">
+      </div>
+  </section>
+
+</body>
+
+</html>

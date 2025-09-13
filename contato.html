@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+</head>
+
+<body>
+    <Header>
+        <nav>
+            <a href="/index.html">Inicio</a>
+        </nav>
+    </Header>
+    <main>
+        <h1>Formulario de contato geral</h1>
+        <form>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label>
+                    Nome Completo:
+                    <input type="name" required>
+                </label><br><br>
+                <label>
+                    Email:
+                    <input type="email" required>
+                </label> <br><br>
+                <label>
+                    Informações gerais:
+                    <select name="informações gerais" id="" required>
+                        <option value="">Selecione:</option>
+                        <option value="">Reclamação</option>
+                        <option value="">Sugestão</option>
+                        <option value="">Elogio</option>
+                        <option value="">Pedido especial</option>
+                        <option value="">Outros</option>
+                    </select>
+                </label><br><br>
+                Observações
+                <textarea name="comentario" id="comentario">Digite seu comentário aqui.</textarea>
+                </label><br><br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

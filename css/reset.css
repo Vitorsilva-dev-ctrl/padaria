@@ -1,0 +1,10 @@
+/* Seletor * global é usado para fazer o reset da pagina */
+*{
+    /* propriedade: valor; */
+  margin: 0;
+  /* estamos zerando toda a margem do site */
+  padding: 0;
+  /* padding é o espaçamento interno da tag */
+  box-sizing: border-box;
+  /* calcula de forma inteligente o estilo */
+}

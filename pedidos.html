@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de pedidos</title>
+</head>
+
+<body>
+
+    <main>
+        <nav>
+            <a href="/index.html">Inicio</a>
+        </nav>
+        <h1>Formulario de pedidos geral</h1>
+        <form>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label>
+                    Nome Completo:
+                    <input type="name" required>
+                </label><br><br>
+                <label>
+                    Numero de telefone
+                    <input type="tel" required pattern="\(\d{2}\)\s?\d{4,5}-\d{4}" placeholder="(11) 9444-4444">
+                </label>
+                <label>
+                    Email:
+                    <input type="email" required>
+                </label> <br><br>
+
+
+                <label>
+                    Detalhes do pedido: <br><br>
+                    <input type="radio">
+                    Bolo
+                </label>
+                <label>
+
+                    <input type="radio">
+                    Pizza
+                </label>
+                <label>
+
+                    <input type="radio">
+                    Salgados
+                </label>
+                <label>
+                    <input type="radio">
+                    Pão
+                </label><br><br>
+
+                Sabor/Recheio:
+                <select name="Sabor/Recheio" required>
+                    <option value="">Selecione:</option>
+                    <option value="">Chocolate</option>
+                    <option value="">Frango</option>
+                    <option value="">Coxinha</option>
+                    <option value="">Doce</option>
+                    <option value="">Outros</option>
+                </select>
+                </label><br><br>
+                Observações
+                <textarea name="comentario" id="comentario">Local de referência.</textarea>
+                </label><br><br>
+                <label>
+                    Data de entraga:
+                    <input type="date" name="" id="" required>
+                </label><br><br>
+
+                <label>
+                    Orçamento Máximo
+                    <input type="number" required>
+                </label>
+
+
+
+                <button type="submit">Enviar</button>
+
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
